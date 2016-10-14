@@ -27,7 +27,7 @@ security:
       client-id: acme
       access-token-uri: http://192.168.1.128:8787
   enable-csrf: false
-  ignored: /v1/demo/**
+#  ignored: /v1/demo/**
 eureka:
   instance:
     prefer-ip-address: true
